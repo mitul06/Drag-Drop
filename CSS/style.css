@@ -1,0 +1,35 @@
+body{
+    background-color: #4e0075;
+}
+
+.imgBox{
+    background-image: url(../img/time-1891560_640.png);
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border: 3px solid #ff002b;
+}
+
+.hold{
+    border: 3px solid orangered;
+}
+
+.hide{
+    display: none;
+}
+
+.dashed{
+    background-color: white;
+    border-style: dashed;
+}
